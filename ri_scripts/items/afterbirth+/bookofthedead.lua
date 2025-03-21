@@ -1,1 +1,0 @@
-Isaac.GetItemConfig():GetCollectible(CollectibleType.COLLECTIBLE_BOOK_OF_THE_DEAD).MaxCharges = 4
