@@ -14,6 +14,7 @@ local scripts = {
     --"items.void",
 
     --"characters.apollyon",
+    "characters.eve",
 
     "cards",
     "pills",
