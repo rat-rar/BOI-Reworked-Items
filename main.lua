@@ -15,6 +15,7 @@ local scripts = {
 
     --"characters.apollyon",
     "characters.eve",
+    "characters.samson",
 
     "cards",
     "pills",
