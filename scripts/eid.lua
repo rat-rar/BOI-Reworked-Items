@@ -29,6 +29,8 @@ mod:AddCallback(ModCallbacks.MC_POST_MODS_LOADED, function()
 
     EID:addCollectible(CollectibleType.COLLECTIBLE_TELEPORT, "Teleports Isaac into a random room on the map#Direction of the teleport can be influenced with the movement keys")
     --EID:addCollectible(CollectibleType.COLLECTIBLE_LUDOVICO_TECHNIQUE, "Replaces Isaac's tears with one giant controllable tear#Pressing the drop button ({{ButtonRT}}) causes the tear to burst and spawns a new one")
+    EID:addCollectible(CollectibleType.COLLECTIBLE_VOID, "Converts each pedestal items in the room into two random stat ups#Converts all pickups in the room into blue flies")
+    
     EID:addCard(Card.CARD_REVERSE_WORLD, "{{ErrorRoom}} Teleports Isaac to the Error Room")
     EID:addPill(PillEffect.PILLEFFECT_HORF, "{{Collectible149}} Gives Ipecac for the room", "Horf!")
     EID:addHorsePill(PillEffect.PILLEFFECT_HORF, "{{Collectible149}} Gives Ipecac for the room", "Horf!")

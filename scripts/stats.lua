@@ -24,6 +24,10 @@ mod:AddCallback(ModCallbacks.MC_EVALUATE_CACHE, function(_, player, cacheFlag)
             player.MaxFireDelay = TearsUp(player.MaxFireDelay, 1.5 * player:GetCollectibleNum(CollectibleType.COLLECTIBLE_NUMBER_ONE, false, true) * mult)
         end
 
+        if player:GetPlayerType() == PlayerType.PLAYER_APOLLYON then
+            player.MaxFireDelay = TearsUp(player.MaxFireDelay, -0.5 * mult)
+        end
+
     elseif cacheFlag & CacheFlag.CACHE_SHOTSPEED > 0 then
         local mult = mod:GetPlayerShotSpeedMult(player)
 
